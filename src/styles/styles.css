@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll {
+  scroll-behavior: smooth;
+}
+
+.scroll::-webkit-scrollbar {
+  padding-right: 2px;
+  width: 8px;
+  background: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #3b82f6;
+}
